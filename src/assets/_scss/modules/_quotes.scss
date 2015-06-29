@@ -24,8 +24,7 @@ blockquote {
   }
 
   @include breakpoint(small) {
-    border-left: none;
     margin: 30px 0;
-    font-size: 22px;
+    font-size: 20px;
   }
 }
