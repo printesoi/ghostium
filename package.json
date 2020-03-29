@@ -1,6 +1,6 @@
 {
   "name": "ghostium",
-  "version": "2.3.2",
+  "version": "2.3.3",
   "description": "A Ghost theme focused on content based on Medium design/ux",
   "url": "http://ghostium.oswaldoacauan.com/",
   "copyright": "2013",
@@ -21,7 +21,8 @@
     "ghost",
     "blog",
     "theme",
-    "medium"
+    "medium",
+    "ghost-theme"
   ],
   "dependencies": {},
   "devDependencies": {
@@ -48,7 +49,8 @@
     "matchdep": "~2.0.0"
   },
   "engines": {
-    "node": ">=8.9"
+    "node": ">=8.9",
+    "ghost-api": "v3"
   },
   "scripts": {
     "test": "grunt --verbose",
