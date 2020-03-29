@@ -1,11 +1,10 @@
-# Ghostium [![Build Status](https://travis-ci.org/oswaldoacauan/ghostium.png)](https://travis-ci.org/oswaldoacauan/ghostium) [![Total views](https://sourcegraph.com/api/repos/github.com/oswaldoacauan/ghostium/counters/views.png)](https://sourcegraph.com/github.com/oswaldoacauan/ghostium)
+# Ghostium – [Try Ghost](https://ghost.org?lmref=1166)
 
 ![Ghostium](http://i.imgur.com/m5VcTBl.png)
 
 > A [Ghost](https://ghost.org/) theme focused on content based on [Medium](https://medium.com) design/ux.
 
-### [→ Live Demo](http://ghostium.oswaldoacauan.com/)
-### [→ Download](https://github.com/oswaldoacauan/ghostium/archive/master.zip)
+**NOT UNDER ACTIVE DEVELOPMENT**
 
 ## Table of contents
 
@@ -50,6 +49,33 @@ $ git clone https://github.com/oswaldoacauan/ghostium/ "ghostium"
 5. Restart ghost and log in to your dashboard
 6. In settings under themes select **ghostium** and save
 7. That's all, now its time to [configure](#configuring) your theme
+
+## Building from source
+
+### Prerequisites
+
+* Ruby >= 2.4
+* Bundler (`gem install bundler`)
+* Sass (`gem install sass`)
+* Node >= 8.9
+* Bower (`npm install -g bower`)
+* Run `npm install`
+
+### Build
+
+```
+npm run build
+```
+
+Compiles all assets into the `build/` directrory.
+
+### Zip
+
+```
+npm run zip
+```
+
+This creates the `ghostium.zip` bundle ready for upload through the UI.
 
 ## Configuring
 
@@ -101,3 +127,5 @@ For detailed history, see [Changelog](https://github.com/oswaldoacauan/ghostium/
 ## License
 
 [MIT License](http://oswaldoacauan.mit-license.org/) © Oswaldo Acauan
+
+[![Try Ghost](https://img.shields.io/static/v1.svg?label=Try&message=Ghost&color=46a5db)](https://ghost.org?lmref=1166)
