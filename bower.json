@@ -22,7 +22,7 @@
     "font-awesome": "~4.1.0",
     "prism": "~1.29.0",
     "pace": "~0.5.1",
-    "jquery": "~2.2.4",
+    "jquery": "~2.0.2",
     "jquery-pjax": "master"
   }
 }
